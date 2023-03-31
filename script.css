@@ -47,9 +47,6 @@ a{
 .maintext{
     display: flex;
     flex-direction: column;
-    max-width: 466px;
-    /* justify-content: space-between; */
-    align-items: flex-start;
 }
 
 .main .mainimg{
@@ -77,12 +74,6 @@ a{
     margin-top: 10px;
 }
 
-.infocon{
-    display: flex;
-    justify-content: center;
-    gap: 52px;
-}
-
 .cenran{
     text-align: center;
     font-size: 36px;
@@ -90,13 +81,76 @@ a{
     margin: 50px 0;    
 }
 
-.info img{
-    border: 2px solid black;
+.infocon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+
+
+.infocon-img{
+    border: 5px solid #3882f6;
     padding: 70px;
-    margin: 70px;
+    border-radius: 10px;
+    /* margin: 70px; */
 }
 
 .info{
     max-width: 200px;
 
+}
+
+.qoute{
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.qmain{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.qsource{
+    padding-top: 20px;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 900;
+    padding-right: 100px;
+}
+
+.signup .w90{
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px auto;
+    padding: 50px 0;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#maintext{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.button button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    padding: 5px 25px;
+    color: white; 
+    font-weight: bolder;
+    border-radius: 6px;
+}
+
+footer{
+    background-color: #1f2937;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
 }
